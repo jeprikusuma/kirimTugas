@@ -1,0 +1,107 @@
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+
+
+.login-awal{
+	border-radius: 20px;
+	height: 550px;
+	width: 380px;
+	position: relative;
+	top: 50px;
+	overflow: hidden;
+	background-color: transparent;
+	background-image: url('gambar1.jpg');
+
+}
+.info{
+	position: absolute;
+	width: 350px;
+	margin: 0 20px ;
+	font-size: 20px;
+	color : #E9E9E9;
+	text-align: center;
+}
+.login-awal h2{
+	position: absolute;
+	transition: 0.5s;
+	top: 90px;
+	font-size: 35px;
+}
+.login-awal p{
+	position: absolute;
+	top: 200px;
+	transition: 0.8s;
+}
+.login{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 470px 0 0;
+	font-size: 20px;
+	border-radius: 160px;
+	background-color: white;
+	transition: 0.8s;
+
+}
+
+.login .tengah{
+	text-align: center;
+	pointer-events: none;
+}
+
+.login .form-title{
+	top: 20px;
+	text-align: center;
+	color: black;
+	margin-left: 40%;
+	pointer-events: all;
+	font-size: 18px;
+}
+
+.login .form-isi{
+	position: absolute;
+	top: 180px;
+}
+.login input {
+	background-color: transparent;
+	width: 250px;
+	height: 45px;
+	margin: 5px;
+	padding: 0px 15px;
+	color: black;
+	border:2px solid #07047D; 
+	border-radius: 20px;
+	outline: 0px;
+	font-size: 16px;
+	transition: 0.3s;
+}
+.login input:hover{
+	width: 300px;
+	height: 50px;
+	margin: 6px;
+	border:3px solid #07047D;
+	border-radius: 24px;
+	font-size: 18px;
+}
+
+.login button {
+	background-color: #07047D;
+	width: 150px;
+	height: 40px;
+	margin: 10px;
+	padding: 0px 15px;
+	color: white;
+	border:2px solid #07047D; 
+	border-radius: 17px;
+	outline: 0px;
+	font-size: 16px;
+}
+.login button:hover{
+	background-color: #FF5E5E;
+	border:2px solid #FF5E5E; 
+	outline: 0px;
+}
+.keluar{
+	transition: 0.5s;
+}

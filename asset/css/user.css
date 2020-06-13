@@ -1,0 +1,11 @@
+.hide {  
+	margin-top: 10px; 
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+.show{
+	visibility: visible;
+	margin-top: 10px;
+	transition: 0.5s;
+}

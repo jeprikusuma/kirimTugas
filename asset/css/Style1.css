@@ -1,0 +1,22 @@
+body{
+	background-color: #4e73df;
+}
+.fileUpload{
+	position: relative;
+	overflow: hidden;
+	margin: 10px
+}
+.uploadFile{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+}
+#namaFile{
+	background-color: transparent;
+	border: 0px;
+}
